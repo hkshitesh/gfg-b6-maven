@@ -21,4 +21,8 @@ public class MyCalc {
 	{
 		System.out.println("Message from Calc Class");
 	}
+	public void greeting()
+	{
+		System.out.println("Greetings from GFG");
+	}
 }
