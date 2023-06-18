@@ -14,17 +14,17 @@ pipeline {
 				bat 'mvn test'
 				}
 			}
-		stage ('Stage 3: My Package')
+		stage ('Stage 3: My Package'){
 			steps {
 				bat 'mvn package'
 				}
 			}			
-		stage ('Stage 4: My Final Build Stage')
+		stage ('Stage 4: My Final Build Stage'){
 			steps {
 				bat 'mvn install'
 				}
 			}	
-		stage ('Stage Final: Build Success')
+		stage ('Stage Final: Build Success'){
 			steps {
 				echo  'Build Success'
 				}
