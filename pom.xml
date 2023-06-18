@@ -12,6 +12,7 @@
   </dependencies>
   
   <build>
+  <finalName>gfg-smaple</finalName>
   <plugins>
     <plugin>
       <!-- Build an executable JAR -->
@@ -23,7 +24,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>gfgpkg.MyCalc</mainClass>
+            <mainClass>gfgpkg.MyMainCalc</mainClass>
           </manifest>
         </archive>
       </configuration>
